@@ -1,0 +1,96 @@
+body  {
+	background: #F2F6CC;
+}
+
+main {
+	width: 100%;
+}
+
+section#unos {
+	width: 45%;
+	float: left;
+}
+
+section#prikaz {
+	width: 55%;
+	float: right;
+}
+
+header {
+	width: 300px;
+	color: #010101;
+	border-left: 2px solid #4e5563;
+	margin: 20px;
+	padding: 10px 0px;
+}
+
+h1 {
+	font-size: 32px;
+	font-weight: bold;
+	margin-left: 50px;
+	font-family: "Inconsolata", Gadget, sans-serif;
+	text-transform: uppercase;
+}
+
+form {
+	outline: 0;
+	margin: 10px;
+	padding: 10px;
+	font-size: 24px;
+}
+
+label {
+	display: block;
+	color: #010101;
+	font-family: "American Typewriter", Gadget, sans-serif;
+}
+
+input {
+	color: ##010101;
+	width: 75%;
+	height: 75px;
+	border:none;
+	vertical-align: middle;
+	line-height: 75px;
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+	margin: 20px 0px 40px 0px;
+	-webkit-border-radius:5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	behavior: url(skripte/pie.min.htc);
+}
+
+input:focus {
+	outline: 0;
+}
+
+#kreiraj {
+	background-color: #C3D23C;
+	color: #ffffff;
+	font-weight: bold;
+	text-transform: uppercase;
+	display: block;
+	cursor: pointer;
+}
+	
+#tablica {
+	margin: 20px;
+	padding: 10px 0px;
+	color: #595958;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.polje {
+	width: 90px;
+	height: 90px;
+	background: #ffffff;
+	text-align:center;
+	vertical-align: middle;
+	line-height: 90px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+}
